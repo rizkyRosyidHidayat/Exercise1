@@ -1,0 +1,50 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.mt-100{
+	margin-top: 100px;
+}
+.py-100{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+@media (min-width: 1200px){
+	.container {
+	    max-width: 960px !important;
+	}
+}
+
+@media (max-width: 576px){
+	.display-3 {
+	   font-size: 3.5rem; 
+	}
+	.display-4{
+		font-size: 2.5rem;
+	}
+	.mt-100{
+		margin-top: 50px;
+	}
+	.py-100{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.w-75{
+		width: 100% !important;
+	}
+	.w-25{
+		width: 100% !important;
+		margin-bottom: 1rem;
+	}
+	.map-alamat{
+		order: 2;
+	}
+	.title-alamat{
+		order: 1;
+	}
+	.d-flex{
+		display: block !important;
+	}
+}
+
